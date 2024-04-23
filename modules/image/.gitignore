@@ -1,0 +1,10 @@
+.idea/
+logs/
+www/
+.DS_Store
+*.swp
+*.log
+.settings/
+.project
+.buildpath
+nbproject/

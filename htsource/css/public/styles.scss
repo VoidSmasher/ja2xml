@@ -1,0 +1,41 @@
+.clearfix:after, .clearfix:before {
+  display: table;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+#LZ, .LZ {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+html {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+textarea,
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+a {
+  text-decoration: none;
+}

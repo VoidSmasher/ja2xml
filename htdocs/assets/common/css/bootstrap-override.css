@@ -1,0 +1,88 @@
+#captcha, .captcha {
+	margin-bottom: 15px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	cursor: pointer;
+}
+
+.navbar-nav > li.divider {
+	height: 30px;
+	width: 1px;
+	margin-top: 10px;
+	overflow: hidden;
+	background-color: #e5e5e5;
+}
+
+.nopadding {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+input[type="checkbox"] {
+	cursor: pointer;
+}
+
+label.checkbox {
+	padding-left: 15px;
+	cursor: pointer;
+}
+
+.checkbox-inline {
+	cursor: default;
+}
+
+.checkbox-inline label {
+	cursor: pointer;
+}
+
+@media (min-width: 768px) {
+	.fixed-width .form-control,
+	.fixed-width .btn {
+		width: 225px;
+	}
+}
+
+.form-horizontal .form-group.alert {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.form-horizontal .form-group.alert .control-label {
+	margin-left: -10px;
+}
+
+.form-horizontal .form-group.alert .control-text {
+	margin-right: -15px;
+}
+
+.nav > li > a {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+div.alert-deploy {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	width: 100%;
+	background-color: #d9534f;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+div.combine-control-group {
+	border: 1px solid #F0F0F0;
+	padding: 5px;
+	background-color: #FAFAFA;
+	border-radius: 4px;
+}
+
+div.combine-selector {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+

@@ -1,0 +1,36 @@
+[submodule "system"]
+	path = system
+	url = git@bitbucket.org:forcecode/kohana-core.git
+[submodule "modules/auth"]
+	path = modules/auth
+	url = git@bitbucket.org:forcecode/kohana-auth.git
+[submodule "modules/cache"]
+	path = modules/cache
+	url = git@bitbucket.org:forcecode/kohana-cache.git
+[submodule "modules/captcha"]
+	path = modules/captcha
+	url = git@bitbucket.org:forcecode/kohana-captcha.git
+[submodule "modules/database"]
+	path = modules/database
+	url = git@bitbucket.org:forcecode/kohana-database.git
+[submodule "modules/email"]
+	path = modules/email
+	url = git@bitbucket.org:forcecode/kohana-email.git
+[submodule "modules/image"]
+	path = modules/image
+	url = git@bitbucket.org:forcecode/kohana-image.git
+[submodule "modules/mysqli"]
+	path = modules/mysqli
+	url = git@bitbucket.org:forcecode/kohana-mysqli.git
+[submodule "modules/pagination"]
+	path = modules/pagination
+	url = git@bitbucket.org:forcecode/kohana-pagination.git
+[submodule "modules/jelly"]
+	path = modules/jelly
+	url = git@bitbucket.org:forcecode/jelly.git
+[submodule "modules/jelly-auth"]
+	path = modules/jelly-auth
+	url = git@bitbucket.org:forcecode/jelly-auth.git
+[submodule "modules/phpexcel"]
+	path = modules/phpexcel
+	url = git@bitbucket.org:forcecode/phpexcel.git
